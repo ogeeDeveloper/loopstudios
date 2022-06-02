@@ -1,7 +1,14 @@
 module.exports = {
   content: ['./*.html'],
+  screen:{},
   theme: {
-    extend: {},
+    extend: {
+      // Set the font family for the web page
+      fontFamily: {
+        sans: ['Josefin Sans', 'sans-serif'],
+        alata: ['Alata']
+      }
+    },
   },
   plugins: [],
 }
